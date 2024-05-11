@@ -242,18 +242,7 @@ header.shadow .logo {
   cursor: pointer;
 }
 
-.imgisi {
-  display: flex;
-  width: 600px; /* Ukuran gambar */
-  margin-right: 20px; /* Jarak antara gambar dan pre */
-}
-
-.preisi {
-  flex: 1; /* Mengisi ruang tersisa */
-  margin-left: 20px; /* Jarak antara pre dan gambar */
-}
-
-/* Footer pada Blog */
+/* Footer pada Blog MAIN*/
 .footer {
   display: flex;
   justify-content: space-between;
@@ -292,7 +281,7 @@ td {
 /* Post Content */
 .post-header {
   width: 100%;
-  height: 500px;
+  height: 400px;
   background: var(--bg-color);
 }
 
@@ -343,14 +332,12 @@ td {
   margin-top: 10rem !important;
 }
 
+.sub-heading1 {
+  text-align: center;
+  font-size: 1.5rem;
+}
 .sub-heading {
   font-size: 1.2rem;
-}
-.bebas {
-  font-size: 1rem;
-  line-height: 1.7rem;
-  margin: 1rem 0;
-  text-align: justify;
 }
 
 .post-text2 {
@@ -364,6 +351,24 @@ td {
   line-height: 1.7rem;
   margin: 1rem 0;
   text-align: justify;
+}
+
+.imgisi {
+  display: flex;
+  width: 600px; /* Ukuran gambar */
+  margin-right: 20px; /* Jarak antara gambar dan pre */
+}
+
+.imgisi1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+.preisi {
+  flex: 1; /* Mengisi ruang tersisa */
+  margin-left: 20px; /* Jarak antara pre dan gambar */
 }
 
 /* Share */
@@ -385,181 +390,6 @@ td {
   border-radius: 4px;
   background: var(--second-color);
   color: var(--bg-color);
-}
-/* Footer */
-
-/* Responsive */
-@media (max-width: 1060px) {
-  .container {
-    margin: 0 auto;
-    width: 95%;
-  }
-  .home-text {
-    width: 100%;
-  }
-
-  .bebas {
-    margin: 1rem;
-  }
-  .post-text {
-    margin: 1rem;
-  }
-
-  .post-text2 {
-    margin: 1rem;
-  }
-
-  .sub-heading {
-    margin: 1rem;
-  }
-
-  .h4 {
-    margin: 1rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .nav {
-    padding: 14px 0;
-  }
-  section {
-    padding: 2rem 0;
-  }
-  h4 {
-    margin: 1rem;
-  }
-
-  .header-content {
-    margin-top: 3rem !important;
-  }
-
-  .home {
-    min-height: 380px;
-  }
-
-  .home-title {
-    font-size: 3rem;
-  }
-
-  .header-title {
-    font-size: 2rem;
-  }
-  .header-img {
-    height: 370px;
-  }
-
-  .post-header {
-    height: 435px;
-  }
-  .post-content {
-    margin-top: 9rem !important;
-  }
-  .bebas {
-    margin: 1rem;
-  }
-  .bebas {
-    margin: 1rem;
-  }
-
-  .post-text {
-    margin: 1rem;
-  }
-  .post-text2 {
-    margin: 1rem;
-  }
-
-  .sub-heading {
-    margin: 1rem;
-  }
-}
-
-@media (max-width: 570px) {
-  .post-header {
-    height: 390px;
-  }
-  .header-title {
-    width: 100%;
-  }
-  .header-img {
-    height: 340px;
-  }
-
-  h4 {
-    margin: 1rem;
-  }
-  .bebas {
-    margin: 1rem;
-  }
-  .post-text {
-    margin: 1rem;
-  }
-  .post-text2 {
-    margin: 1rem;
-  }
-
-  .post-filter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 1rem;
-    margin-top: 2rem !important;
-  }
-
-  .sub-heading {
-    margin: 1rem;
-  }
-
-  .footer {
-    flex-direction: column;
-    row-gap: 1rem;
-    padding: 20px 0;
-    text-align: center;
-  }
-}
-
-@media (max-width: 396px) {
-  .home-title {
-    font-size: 2rem;
-  }
-  .home-subtitle {
-    font-size: 0.9rem;
-  }
-  .home {
-    min-height: 300px;
-  }
-  .post-box {
-    padding: 10px;
-  }
-  .header-title {
-    font-size: 1.4rem;
-  }
-
-  .post-filter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 1rem;
-    margin-top: 2rem !important;
-  }
-
-  .header-img {
-    height: 240px;
-  }
-  .post-header {
-    height: 335px;
-  }
-
-  .post-content {
-    margin-top: 5rem !important;
-  }
-
-  .post-text {
-    margin: 1rem;
-  }
-
-  .sub-heading {
-    margin: 1rem;
-  }
 }
 
 /* footer */
@@ -709,6 +539,37 @@ td {
   color: #3f71ea;
 }
 
+/* RESPONSIVEE */
+
+@media (max-width: 1060px) {
+  .container {
+    margin: 0 auto;
+    width: 95%;
+  }
+  .home-text {
+    width: 100%;
+  }
+
+  .bebas {
+    margin: 1rem;
+  }
+  .post-text {
+    margin: 1rem;
+  }
+
+  .post-text2 {
+    margin: 1rem;
+  }
+
+  .sub-heading {
+    margin: 1rem;
+  }
+
+  .h4 {
+    margin: 1rem;
+  }
+}
+
 @media (max-width: 880px) {
   .footer-distributed .footer-left,
   .footer-distributed .footer-center,
@@ -734,6 +595,155 @@ td {
   }
 }
 
+@media (max-width: 768px) {
+  .nav {
+    padding: 14px 0;
+  }
+  section {
+    padding: 2rem 0;
+  }
+  h4 {
+    margin: 1rem;
+  }
+
+  .header-content {
+    margin-top: 3rem !important;
+  }
+
+  .home {
+    min-height: 380px;
+  }
+
+  .home-title {
+    font-size: 3rem;
+  }
+
+  .header-title {
+    font-size: 2rem;
+  }
+  .header-img {
+    height: 370px;
+  }
+
+  .post-header {
+    height: 435px;
+  }
+  .post-content {
+    margin-top: 9rem !important;
+  }
+
+  .post-text {
+    margin: 1rem;
+  }
+  .post-text2 {
+    margin: 1rem;
+  }
+
+  .sub-heading {
+    margin-top: 1rem;
+  }
+
+  .imgisi1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+  }
+
+  .img1-text {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 570px) {
+  .post-header {
+    height: 390px;
+  }
+  .header-title {
+    width: 100%;
+  }
+  .header-img {
+    height: 340px;
+  }
+
+  h4 {
+    margin: 1rem;
+  }
+  .bebas {
+    margin: 1rem;
+  }
+  .post-text {
+    margin: 1rem;
+  }
+  .post-text2 {
+    margin: 1rem;
+  }
+
+  .post-filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+    margin-top: 2rem !important;
+  }
+
+  .sub-heading {
+    margin: 1rem;
+  }
+
+  .footer {
+    flex-direction: column;
+    row-gap: 1rem;
+    padding: 20px 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 396px) {
+  .home-title {
+    font-size: 2rem;
+  }
+  .home-subtitle {
+    font-size: 0.9rem;
+  }
+  .home {
+    min-height: 300px;
+  }
+  .post-box {
+    padding: 10px;
+  }
+  .header-title {
+    font-size: 1.4rem;
+  }
+
+  .post-filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+    margin-top: 2rem !important;
+  }
+
+  .header-img {
+    height: 240px;
+  }
+  .post-header {
+    height: 335px;
+  }
+
+  .post-content {
+    margin-top: 5rem !important;
+  }
+
+  .post-text {
+    margin: 1rem;
+  }
+
+  .sub-heading {
+    margin: 1rem;
+  }
+}
+
 @media (max-width: 700px) {
   .home-text {
     color: var(--second-color); /* Warna teks hitam */
@@ -747,6 +757,9 @@ td {
     border-radius: 10px; /* Membuat sudut elemen melengkung */
     max-width: 80%; /* Maksimum lebar elemen agar tidak terlalu lebar */
     margin: 0 auto; /* Tengahkan elemen */
+  }
+  .home-tittle b {
+    font-size: 18px;
   }
 }
 
